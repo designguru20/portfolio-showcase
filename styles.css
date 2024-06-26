@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'lato', sans-serif;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 1rem;
+}
+
+p {
+    width: 80%;
+    margin: auto;
+}
+
+.header {
+    text-align: center;
+}
+
+.row {
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+    gap: 10px;
+    margin: 2.5rem 1rem 0;
+}
